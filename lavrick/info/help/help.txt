@@ -1,0 +1,36 @@
+1. npm init и ( везде enter yes )
+2. npm i webpack --save-dev  ( укороченые записи -D)
+3. npm i webpack-cli --save-dev
+
+4   "scripts": {
+    "build": "webpack --mode production"    (development место production для ускарения)
+  },
+
+5 npm i
+запуск ( npm run ....)
+
+ПОДКЛЮЧЕНИЕ СТОРОННЕЙ БИБЛИОТЕКЕ
+чтобы указать версию надо прописать @пишем версию
+npm i jquery --save
+
+6 SERVER : npm i webpack-dev-server --save-dev  ( чтоб постоянно не писать npm run build ) и ( в scripts прописываю  "dev":"webpack-dev-server --mode development", ) затем npm run dev
+если я хочу чтоб сразу открывал браузер добовляю в dev в конец --open
+
+7  npm i path --save-dev ( модуль для путей )
+
+8 npm i babel-loader babel-core babel-preset-env babel-preset-stage-3 --save-dev
+
+
+
+CSS
+
+1. npm i style-loader css-loader --save-dev
+
+плагин npm i extract-text-webpack-plugin@next --save-dev
+
+
+
+
+
+https://github.com/valentinogagliardi/webpack-4-quickstart
+https://nodejs.org/dist/latest-v9.x/docs/api/path.html
